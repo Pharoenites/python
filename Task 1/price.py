@@ -4,3 +4,4 @@ def format_price(price):
 
 call_function = format_price(56.24)
 print(call_function)
+print(call_function)
