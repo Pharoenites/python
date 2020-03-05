@@ -14,3 +14,4 @@ def what_to_do_by_age(age):
     return what_to_do
 
 print(what_to_do_by_age(age))
+
