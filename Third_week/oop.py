@@ -3,10 +3,13 @@ class Point:
         self.x = x
         self.y = y
 
-
     def coordinates(self):
-        print(f'coordinates are: {self.x}, {self.y}')
+        print(f'coordinates are: {self.x}, {self.y}')    
+    
+    def __repr__(self):
+        return f'<Point x: {self.x}, y: {self.y}>'
 
 
 my_point = Point(5, 16)
-my_point.coordinates() 
+#my_point.coordinates() 
+print(my_point)
