@@ -1,0 +1,11 @@
+python ephem.py:
+
+
+Traceback (most recent call last):
+  File "ephem.py", line 1, in <module>
+    import ephem
+  File "C:\Users\Egor\Desktop\Python\target\2. Second_week\ephem.py", line 3, in <module>
+    mars = ephem.Mars('2000/01/01')
+AttributeError: partially initialized module 'ephem' has no attribute 'Mars' (most likely due to a circular import)
+
+
