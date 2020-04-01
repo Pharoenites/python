@@ -2,15 +2,15 @@ a = input('Введите первую строку: ')
 b = input('Введите вторую строку: ')
 
 def compare_strings(a, b):
-    if (type(a) == str and type(b) == str) == False:
+    if (type(a) != str or type(b) != str):
         return 0
-    if a == b:
+    elif a == b:
         return 1
-    if a != b and len(a) > len(b):
+    elif a != b and len(a) > len(b):
         return 2
-    if a != b and b == 'learn':
+    elif a != b and b == 'learn':
         return 3
+    else:
+        print('else')
         
 print(compare_strings(a, b))
-
-
